@@ -88,7 +88,7 @@ python3 password_manager.py --erase
 
 ## Known Limitations & Future Improvements
 
-**Current limitations (documented intentionally — this is a learning project):**
+**Current limitations:**
 
 - **ECB vs CBC:** The current implementation uses CBC, which is secure for this use case, but authenticated encryption (AES-GCM) would be stronger by providing integrity verification in addition to confidentiality.
 - **Key Derivation:** Using SHA-256 directly is functional but not ideal. A proper KDF like PBKDF2 or Argon2 with a high iteration count would provide better resistance to brute-force attacks. Migrating to Argon2id is on the roadmap.
