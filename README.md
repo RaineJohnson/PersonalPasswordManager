@@ -4,7 +4,7 @@ A command-line credential manager built in Python with a focus on cryptographic 
 
 ## Why I Built This
 
-Commercial password managers are great, but I wanted to understand the cryptographic primitives under the hood. This project forced me to make real decisions about key derivation, encryption modes, IV management, and secure memory handling — things you don't learn from just reading about them.
+Commercial password managers are great, but I wanted to understand the cryptographic primitives under the hood. This project forced me to make real decisions about key derivation, encryption modes, IV management, and secure memory handling, which are things you don't learn from just reading about them.
 
 ## Security Architecture
 
